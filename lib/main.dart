@@ -24,8 +24,9 @@ class _BallState extends State<Ball> {
     return Center(
       child: TextButton(
         onPressed: () {
-          print('I got Clicked');
+          print('I got pressed');
         },
+        child: Image.asset('images/ball1.png'),
       ),
     );
   }
